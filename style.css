@@ -4,23 +4,65 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 header{
     margin-top: 94px;
     margin-left: 84px;
-    font-family: "Roboto";
+}
+.links{
     padding-right: 64px;
     font-size: 30px;
     text-decoration: none;
+    color: #000;
+    font-weight: 500;
 }
 
-div{
-    display: inline-block;
+.box{
+    display: inline-flex;
 }
 
-img{
-    width: 1190.02;
-    height: 1000.01px
+.img{
+    width: 1190.02px;
+    height: 1000.01px;
 }
+
+.sign{
+    width: 248px;
+    height: 102px;
+    color: #fff;
+    background-color: #6FBF44;
+    border-color: #4CB538;
+    border-width: 5px;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.desc{
+    font-size: 25px;
+    color: #4B505A;
+    font-weight: 400;
+    padding-left: 256px;
+    padding-top: 64px;
+    line-height: 40px;
+}
+
+.title{
+    color: #161a49;
+    font-weight:900;
+    font-size: 100px;
+    padding-left: 256px;
+    padding-top: 256px;
+}
+
+.learn{
+    color: #6FBF44;
+    text-decoration: none;
+    padding-left: 256px;
+    padding-top: 256px;
+    font-size: 25px;
+}
+
 
